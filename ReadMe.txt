@@ -17,19 +17,13 @@ tech respectively.
 4. The folder DRAE is the code of the paper "Learning discriminative reconstructions for unsupervised 
 outlier removal" published at ICCV 2015. Run the files MNIST_Gray.m and Caltech_VGG.m to execute expe-
 riments on MNIST and Caltech respectively. 
-5. The folder Ours is our code and includes two subfolders:
+5. The folder Ours is our code:
    (1)MEB has two subfolders
       1>Random is the code for random dataset. Run demo_Ori.m, demo_JL.m and demo_Sample.m to execute
 	  experiments on the original dataset (n,d), dimensionality reduction dataset (n,d/4), (n,d/8) and 
 	  (n,d/16) and sampling dataset (n/4,d/8), (n/8,d/8) and (n/16,d/8) respectively; 
-	  2>Real is the code for MNIST and Caltech. Run Ours_MNIST.m, Ours_MNIST_JL.m and Ours_MNIST_Sample.m
+      2>Real is the code for MNIST and Caltech. Run Ours_MNIST.m, Ours_MNIST_JL.m and Ours_MNIST_Sample.m
 	  to execute experiments on MNIST for the original dataset (n,d), dimensionality reduction dataset 
 	  (n,d/4), (n,d/8) and (n,d/16) and sampling dataset (n/4,d/8), (n/8,d/8) and (n/16,d/8) respectively. 
 	  In a similar way, run Ours_Caltech.m, Ours_Caltech_JL.m and Ours_Caltech_Sample.m to execute experi-
-	  ments on Caltech;
-   (2)k-Center has two subfolders
-      1>Random is the code for random dataset. Similar to the folder Random in MEB, run KCenter.m, KCenter_
-	  JL.m and KCenter_Sample.m respectively; 
-	  2>Real is the code for MNIST and Caltech. Similar to the folder Random in k-Center. 
-
-
+	  ments on Caltech.
